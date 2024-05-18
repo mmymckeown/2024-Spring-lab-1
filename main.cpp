@@ -3,31 +3,15 @@
 
 InterruptIn buttn(pc_13);
 
-int flag=0;
-
-void buttn_fall()}
-my flag=1
+void buttn_fall(){
+    printf("buttn pressed!!\r\n")
 }
-
-//main() runs in its own thread in the OS
-int main()
+ 
+ //main()run in its own threadin the OS
+ int main()
 {
-    print("This is mbed os v%d\r\n",MBED_VERSION);
-    buttn.fall(buttn_fall);
-    while(true){
-        if(myflag==1)
-        printf("button pressed!!\r\n")
-        myflag=0;
-    }
-}
-}
+    print("this is mbed os v%d\r\n",MBED_VERSION);
 
-
-// main() runs in its own thread in the OS
-int main()
-{
-    while (true) {
-
-    }
-}
+buttn.fall(buttn_fall);
+while
 
